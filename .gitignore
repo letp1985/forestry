@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+/api/config.py
+/api/api_token.json
+
 # C extensions
 *.so
 
