@@ -1,0 +1,30 @@
+{
+  "return_to_main": {
+    "element": "return_to_main",
+    "message": "Would you like to return to the main menu or end this session?.",
+    "choices": {
+      "Main Menu": {"UserInterface('user_input_main').user_interface_generator()": null},
+      "End Session": {"quit_menu()": null}
+    },
+    "return_type": "function"
+  },
+  "user_input_main": {
+    "element": "user_input_main",
+    "message": "How would you like to proceed?",
+    "choices": {
+      "I would like to choose from a list of random datasets.": null,
+      "I would like to search for a specific dataset.": null,
+      "I would like to choose from a list of all datasets that include a keyword. ":
+      {
+        "UserInterface('choose_dataset').user_interface_generator()": null
+      }
+    },
+    "return_type": "function"
+    },
+    "choose_dataset": {
+    "element": "choose_dataset",
+    "message": "Please select a dataset",
+    "choice_list": "keyword_search()",
+    "return_type": "string"
+    }
+}
