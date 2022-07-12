@@ -111,7 +111,7 @@ datasets = list_dataset_names()
 print(datasets)
 ```
 
-This returns a list of datasets by parsing the `api\datasets.json` 
+This returns a list of datasets by parsing the `api/datasets.json` 
 and returning the dataset element for each entry.
 
 As the list is long, you can use the following function to list 5 random datasets.
