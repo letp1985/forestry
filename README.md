@@ -24,6 +24,8 @@ of how to achieve the following items:
 
 ## Pre requisites
 
+This python package was built using python version 3.8 and on MacOS.
+
 First make sure that all requirements for this project are fulfilled in your environment (e.g venv)
 
 ```
