@@ -97,7 +97,7 @@ python api/datasets.py
 ```
 
 This automatically calls the function `update_datasets_json()` 
-from `api/datasets.py` and the file `api\datasets.json` will be updated 
+from `api/datasets.py` and the file `api/datasets.json` will be updated 
 with the latest datasets.
 
 Now switch to the python console.
