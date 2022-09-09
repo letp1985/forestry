@@ -241,6 +241,9 @@ print(df)
 Some simple pandas functions are below to get you started.
 
 ```
+# Check all column names in dataset
+df.columns
+
 # simple statistics regarding the dataset
 df.describe()
 
