@@ -247,7 +247,7 @@ df.describe()
 # Count the instances of each country in this dataset
 df.country.value_counts()
 
-# Group the country and sum the gfw_peatlands__Mg_CO2_ha measure
+# Group by the country and sum the gfw_peatlands__Mg_CO2_ha measure
 df.groupby(['country'])['gfw_peatlands__Mg_CO2_ha'].sum()
 
 ```
